@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  background: whitesmoke;
+}
+
+.nav-links {
+  font-size: 14px;
+}
+
+.image-fix {
+  width: 140px;
+  height: 150px;
+}
+.card-fix {
+  width: 100%;
+}
+
+.menu-item {
+  padding: 15px 15px;
+  color: black;
+  user-select: none;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  margin: 5px 8px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  scroll-behavior:smooth;
+}
+
+
+
+.menu-item.active {
+color: white;
+  background-color: #008ECC;
+}
+
+.scroll-menu-arrow {
+  padding: 3px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .card-fix {
+    width: 100%;
+  }
+
+
+  .image-fix {
+    width: 150px;
+    height: 150px;
+  }
+
+  .menu-item {
+    padding: 18px 30px;
+  }
+  .scroll-menu-arrow {
+    padding: 20px;
+    cursor: pointer;
+  }
+}
+
+
+
