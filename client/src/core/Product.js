@@ -70,7 +70,7 @@ const Product = props => {
 
                         </p>
 
-                        { /*
+                      
                         <p className="card-header mb-2" style={{borderRadius:'5px',backgroundColor:"white",fontSize:'14px',color:"black",
 
                             borderBottom: '5px solid Gainsboro'}}>
@@ -109,7 +109,7 @@ const Product = props => {
 
                         </p>
 
-                            */}
+                            
 
 
                             <p className="card-header mb-2" style={{borderRadius:'5px',backgroundColor:"white",fontSize:'14px',color:"black",
