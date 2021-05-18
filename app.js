@@ -36,9 +36,9 @@ app.use((req, res, next) => {
             res.sendFile(path.resolve(__dirname,'client','build','index.html'))
         })
         if (req.headers.host === 'dghumti.herokuapp.com')
-            return res.redirect(301, 'https://www.dghumti.com');
-        if (req.headers['x-forwarded-proto'] !== 'https')
-            return res.redirect('https://' + req.headers.host + req.url);
+            return res.redirect(301, 'http://www.dghumti.com');
+        if (req.headers['x-forwarded-proto'] !== 'http')
+            return res.redirect('http://' + req.headers.host + req.url);
         else
             return next();
     } else
