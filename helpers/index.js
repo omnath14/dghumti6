@@ -6,7 +6,7 @@ exports.sendEmail = emailData => {
         host: 'smtp.gmail.com',
         auth: {
             user: 'dghumti@gmail.com',
-            pass: '@howareu@'
+            pass: ' '
         }
     }));
 
