@@ -39,7 +39,8 @@ const Menu = ({ history }) => (
             <Link style={isActive(history, "/")}
                    to="/" >
                    <div style={{textAlign:'center'}}>
-                <i style={{fontSize:'15px',color:"white"}} className='fas'>&#xf015;</i><br/><span style={{color:"white"}} className='nav-links'>
+                <i style={{fontSize:'15px',color:"white"}} className='fas'> </i><br/>
+                    <span style={{color:"white"}} className='nav-links'>
                 Home</span>
                    </div>
             </Link>
