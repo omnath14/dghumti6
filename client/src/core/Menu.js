@@ -76,7 +76,7 @@ const Menu = ({ history }) => (
                     <Link
                         to="/signin" >
                         <div style={{textAlign:'center'}}>
-                            <span style={{color:"black"}} className='nav-links'>
+                            <span style={{color:"white"}} className='nav-links'>
                 Login</span>
                         </div>
                     </Link>
