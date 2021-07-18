@@ -30,9 +30,6 @@ const Footer = () => {
                         <Link to="/aboutus"> <small className="mb-0" style={s}>About us</small></Link>
                     </li>
                 </ul>
-                <li className="list-inline-item">
-                    <Link to="/contactus"> <small className="mb-0" style={s}>Sell Your Product on Dghumti.com</small></Link>
-                </li>
 
                 <div className='mb-3'>
                     <a className="mb-0 text-dark" ><i className="fa fa-map-marker" style={i}> </i>
