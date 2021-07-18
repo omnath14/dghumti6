@@ -45,9 +45,9 @@ exports.create = (req, res) => {
 
 
         if (files.photo) {
-            if (files.photo.size > 60000) {
+            if (files.photo.size > 1000000) {
                 return res.status(400).json({
-                    error: 'Image should be less than 60 kb in size'
+                    error: 'Image should be less than 100 kb in size'
                 });
             }
             product.photo.data = fs.readFileSync(files.photo.path);
