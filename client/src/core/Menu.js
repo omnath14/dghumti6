@@ -48,7 +48,7 @@ const Menu = ({ history }) => (
             <Link style={isActive(history, "/shop")}
                    to="/shop" >
                    <div style={{textAlign:'center'}}>
-                <i style={{fontSize:'15px',color:"white"}} className='fas'>&#xf00a;</i><br/><span style={{color:"white"}} className='nav-links'>
+                    <span style={{color:"white"}} className='nav-links'>
                 Category</span>
                    </div>
             </Link>
@@ -57,7 +57,7 @@ const Menu = ({ history }) => (
                 <Link style={isActive(history, "/user/dashboard")}
                    to="/user/dashboard" >
                    <div style={{textAlign:'center'}}>
-                <i style={{fontSize:'15px',color:"white"}} className='fas'>&#xf007;</i><br/><span style={{color:"white"}} className='nav-links'>
+                <span style={{color:"white"}} className='nav-links'>
                 Profile</span>
                    </div>
             </Link>
@@ -67,7 +67,7 @@ const Menu = ({ history }) => (
                 <Link style={isActive(history, "/admin/dashboard")}
                    to="/admin/dashboard" >
                    <div style={{textAlign:'center'}}>
-                <i style={{fontSize:'15px',color:"white"}} className='fas'>&#xf007;</i><br/><span style={{color:"white"}} className='nav-links'>
+                <span style={{color:"white"}} className='nav-links'>
                 Admin</span>
                    </div>
             </Link>
@@ -80,7 +80,7 @@ const Menu = ({ history }) => (
 
                 <div style={{textAlign:'center'}}>
 
-                    <i style={{fontSize:'15px',color:"white"}} className='fas'>&#xf07a;</i>    <span style={{color:"white",backgroundColor:"red",borderRadius:'20px',width:'40px'}}>{itemTotal()}</span><br/>
+                     <span style={{color:"white",backgroundColor:"red",borderRadius:'20px',width:'40px'}}> {itemTotal()}</span><br/>
 
                     <span style={{color:"white"}} className='nav-links'>
                 Cart</span>
