@@ -45,15 +45,7 @@ const Footer = () => {
                     <small className='text-dark'>Ncell: </small>  <a href="tel:9813390991">
                     <small>9813390991</small></a>
                 </div>
-                {!isAuthenticated() && (
-                    <Link
-                        to="/signin" >
-                        <div style={{textAlign:'center'}}>
-                            <i style={{fontSize:'15px',color:'black'}} className='fas'>&#xf007;</i><br/><span style={{color:"black"}} className='nav-links'>
-                Login</span>
-                        </div>
-                    </Link>
-                )}
+        
             </div>
             <small className="text-center text-dark">Copyright © Dghumti 2020.All rights reserved
             </small>
