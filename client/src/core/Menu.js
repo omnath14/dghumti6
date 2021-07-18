@@ -89,7 +89,7 @@ const Menu = ({ history }) => (
 
                 <div style={{textAlign:'center'}}>
 
-                     <span style={{color:"white",backgroundColor:"red",borderRadius:'20px',width:'40px'}}> {itemTotal()}</span><br/>
+                     <span style={{color:"white",backgroundColor:"red",borderRadius:'10px',width:'10px'}}> {itemTotal()}</span><br/>
 
                     <span style={{color:"white"}} className='nav-links'>
                 Cart</span>
