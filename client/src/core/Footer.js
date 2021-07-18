@@ -33,13 +33,13 @@ const Footer = () => {
 
                 <div className='mb-3'>
                     <a className="mb-0 text-dark" ><i className="fa fa-map-marker" style={i}> </i>
-                        <small style={{color:'red'}}>Address:</small> <small>Chandrapur-4, Rautahat Nepal</small> </a>
+                        <small style={{color:'red'}}>Address:</small> <small>Rohini-4, delhi, India</small> </a>
                     <br/>
                     <i className="fa fa-phone" style={i}></i>
                     <small style={{color:'red'}}> Phone: </small>
-                    <small className='text-dark'>Ntc: </small> <a href="tel:9845560461">
+                    <small className='text-dark'>jio: </small> <a href="tel:9845560461">
                     <small>9845560461</small> </a> {' , '}
-                    <small className='text-dark'>Ncell: </small>  <a href="tel:9813390991">
+                    <small className='text-dark'>Airtel: </small>  <a href="tel:9813390991">
                     <small>9813390991</small></a>
                 </div>
         
