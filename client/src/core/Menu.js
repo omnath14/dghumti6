@@ -72,6 +72,15 @@ const Menu = ({ history }) => (
                    </div>
             </Link>
             )}
+                    {!isAuthenticated() && (
+                    <Link
+                        to="/signin" >
+                        <div style={{textAlign:'center'}}>
+                            <span style={{color:"black"}} className='nav-links'>
+                Login</span>
+                        </div>
+                    </Link>
+                )}
 
 
 
