@@ -16,8 +16,8 @@ const Contactus = () => (
                 <hr/>
                 <p>
 
-                    <h6>Ncell: 9813390991</h6>
-                    <h6>Ntc: 9845560461</h6>
+                
+                    <h6>phone no.: 9845560461</h6>
                     <h6>Email:<a href="mailto:dghumti@gmail.com"> dghumti@gmail.com</a></h6><b/>
                     <h6>Website: <a href="https://www.dghumti.com/">www.dghumti.com</a></h6><b/>
                     <p>To Sell your product on Dghumti.com contact number:<a href="tel:9845560461">
