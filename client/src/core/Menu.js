@@ -2,7 +2,7 @@ import React from "react";
 import { Link, withRouter } from "react-router-dom";
 import { signout, isAuthenticated } from "../auth";
 import { itemTotal } from "./cartHelpers";
-import logo from "./logo.png"
+ 
 
 
 
@@ -34,7 +34,7 @@ const Menu = ({ history }) => (
     <nav className="navbar navbar-expand-lg sticky-top shadow-sm" style={color}>
         <div className="container">
 
-            <img src={logo} style={l} alt=" " />
+             <h1>onlineshop</h1>
             
             <Link style={isActive(history, "/")}
                    to="/" >
