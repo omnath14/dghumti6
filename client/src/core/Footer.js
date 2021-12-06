@@ -44,7 +44,7 @@ const Footer = () => {
                 </div>
         
             </div>
-            <small className="text-center text-dark">Copyright © Dghumti 2020.All rights reserved
+            <small className="text-center text-dark">Copyright © Onlineshop 2020.All rights reserved
             </small>
         </footer>
     )
