@@ -138,7 +138,7 @@ e.preventDefault()
                             value={data.exactaddress}
                             placeholder="Delivery address" style={{border:'1px solid #008ECC',borderRadius:'5px'}}
                             required />
-                          <small className="text-muted">Eg. chandrapur bazar near jan jyoti school</small>
+                          
                     </div>
 
                     <button style={{backgroundColor:'#008ECC',color:"white"}} className="btn btn-block">Buy</button>
