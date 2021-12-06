@@ -17,10 +17,10 @@ const Contactus = () => (
                 <p>
 
                 
-                    <h6>phone no.: 9845560461</h6>
+                    <h6>phone no.: 98455608769</h6>
                     <h6>Email:<a href="mailto:dghumti@gmail.com"> dghumti@gmail.com</a></h6><b/>
-                    <h6>Website: <a href="https://www.dghumti.com/">www.dghumti.com</a></h6><b/>
-                    <p>To Sell your product on Dghumti.com contact number:<a href="tel:9845560461">
+                   
+                    <p>To Sell your product on onlineshop.com contact number:<a href="tel:9845560461">
                         <span> 9845560461</span></a></p>
 
                 </p>
